@@ -1,7 +1,7 @@
 import paramiko
 import time
 
-R2_IP = '172.31.113.4'
+R2_IP = '172.31.106.4'
 USERNAME = 'admin'
 key_path = '/home/devasc/.ssh/adminR2_id_rsa'
 
