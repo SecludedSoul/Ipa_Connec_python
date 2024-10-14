@@ -23,7 +23,7 @@ config_output = template.render(config_data)
 # Define device details
 device = {
     'device_type': 'cisco_ios',  # Adjust based on your device type
-    'host': '172.31.113.4',  # Replace with your device's management IP
+    'host': '172.31.106.4',  # Replace with your device's management IP
     'username': os.environ.get('TELNET_USER'),  # Replace with your device's username
     'password': os.environ.get('TELNET_PASSWORD'),  # Replace with your device's password
 }
