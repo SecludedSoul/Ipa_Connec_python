@@ -2,7 +2,7 @@ import telnetlib
 import time
 import os
 
-HOST = "172.31.113.3"
+HOST = "172.31.106.3"
 R1_username = os.environ.get('TELNET_USER')
 R1_password = os.environ.get('TELNET_PASSWORD')
 
