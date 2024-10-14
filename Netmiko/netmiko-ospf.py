@@ -6,7 +6,7 @@ password = os.environ.get('TELNET_PASSWORD')
 routers = [
     {   
         'device_type':'cisco_ios',
-        'ip': '172.31.113.3',
+        'ip': '172.31.106.3',
         'username': username,
         'password': password,
         'commands': [
@@ -17,7 +17,7 @@ routers = [
     },
     {
         'device_type':'cisco_ios',
-        'ip': '172.31.113.4',
+        'ip': '172.31.106.4',
         'username': username,
         'password': password,
         'commands': [
