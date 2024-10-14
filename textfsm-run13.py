@@ -41,7 +41,7 @@ def normalize_interface(interface_name):
 # Example router connection details
 router = {
     "device_type": "cisco_ios",
-    "ip": "172.31.113.4",
+    "ip": "172.31..4",
     "username": "admin",
     "password": "cisco"
 }
